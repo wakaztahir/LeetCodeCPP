@@ -9,7 +9,7 @@
  * @param numbers : array of numbers
  * @param size : size of array [numbers]
  * @param target : target sum of two numbers
- * @return : pair of pointers to indices of two numbers , -1,-1 if no solution found
+ * @return : pair indices of two numbers , -1,-1 if no solution found
  */
 std::pair<int, int> find_two_sum(const int numbers[], int size, int target) {
     for (int i = 0; i < size; i++) {
