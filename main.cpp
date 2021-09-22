@@ -3,13 +3,13 @@
 
 int main() {
 
-    int arr[] = {1, 2, 3, 4, 5};
-    auto indices = find_two_sum(arr, sizeof arr, 24);
+    std::vector<int> vect{1, 2, 3, 4, 5};
+    auto indices = find_two_sum(vect, 23);
 
-    if(indices.first == -1 || indices.second == -1) {
-        std::cout << "Solution not found";
-    }else {
-        std::cout << indices.first << "\n" << indices.second;
+    if (indices.size() < 2) {
+        std::cout << "No solution found";
+    } else {
+        std::cout << indices[0] << " " << indices[1];
     }
     return 0;
 }
