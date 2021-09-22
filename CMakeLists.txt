@@ -3,4 +3,4 @@ project(InterviewPrep)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(InterviewPrep main.cpp)
+add_executable(InterviewPrep main.cpp test.cpp 1-twosum/twosum.cpp 1-twosum/twosum.h)

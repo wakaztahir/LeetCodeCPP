@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/InterviewPrep.dir/1-twosum/twosum.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/main.cpp.obj"
+  "CMakeFiles/InterviewPrep.dir/test.cpp.obj"
   "InterviewPrep.exe"
   "InterviewPrep.exe.manifest"
   "InterviewPrep.lib"

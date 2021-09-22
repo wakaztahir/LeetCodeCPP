@@ -126,6 +126,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\build
 .PHONY : InterviewPrep\fast
 
+1-twosum\twosum.obj: 1-twosum\twosum.cpp.obj
+
+.PHONY : 1-twosum\twosum.obj
+
+# target to build an object file
+1-twosum\twosum.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\1-twosum\twosum.cpp.obj
+.PHONY : 1-twosum\twosum.cpp.obj
+
+1-twosum\twosum.i: 1-twosum\twosum.cpp.i
+
+.PHONY : 1-twosum\twosum.i
+
+# target to preprocess a source file
+1-twosum\twosum.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\1-twosum\twosum.cpp.i
+.PHONY : 1-twosum\twosum.cpp.i
+
+1-twosum\twosum.s: 1-twosum\twosum.cpp.s
+
+.PHONY : 1-twosum\twosum.s
+
+# target to generate assembly for a file
+1-twosum\twosum.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\1-twosum\twosum.cpp.s
+.PHONY : 1-twosum\twosum.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -153,6 +180,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+test.obj: test.cpp.obj
+
+.PHONY : test.obj
+
+# target to build an object file
+test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\test.cpp.obj
+.PHONY : test.cpp.obj
+
+test.i: test.cpp.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\test.cpp.i
+.PHONY : test.cpp.i
+
+test.s: test.cpp.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\test.cpp.s
+.PHONY : test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -162,9 +216,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... InterviewPrep
+	@echo ... 1-twosum/twosum.obj
+	@echo ... 1-twosum/twosum.i
+	@echo ... 1-twosum/twosum.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

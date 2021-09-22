@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/1-twosum/twosum.cpp.obj"
   "C:/Users/wakaztahir/CLionProjects/InterviewPrep/main.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/main.cpp.obj"
+  "C:/Users/wakaztahir/CLionProjects/InterviewPrep/test.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

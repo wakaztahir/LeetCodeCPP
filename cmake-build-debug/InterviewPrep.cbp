@@ -84,7 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.cpp">
+			<Option target="InterviewPrep"/>
+		</Unit>
+		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.h">
+			<Option target="InterviewPrep"/>
+		</Unit>
 		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/main.cpp">
+			<Option target="InterviewPrep"/>
+		</Unit>
+		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/test.cpp">
 			<Option target="InterviewPrep"/>
 		</Unit>
 		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/CMakeLists.txt">
