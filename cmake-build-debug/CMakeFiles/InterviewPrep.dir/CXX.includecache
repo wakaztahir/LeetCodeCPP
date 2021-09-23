@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.cpp
-twosum.h
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.h
-
 C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.h
 vector
 -
+
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/main.cpp
+iostream
+-
+1-twosum/twosum.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/1-twosum/twosum.h
 
