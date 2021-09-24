@@ -5,13 +5,17 @@
 #include "container-water.h"
 
 int maxContainerArea(std::vector<int> &height) {
+    int p1 = 0;
+    int p2 = height.size() - 1;
     int maxArea = 0;
-    for(int i=0;i<height.size();i++){
-        for(int j=i+1;j<height.size();j++){
-            int newArea = std::min(height[i],height[j]) * (j - i);
-            if(newArea > maxArea){
-                maxArea = newArea;
-            }
+    while(p1 < p2){
+        int h = std::min(height[p1],height[p2]);
+        int width = p2 - p1;
+        maxArea = std::max(maxArea,(width * h));
+        if(height[p1]<=height[p2]){
+            p1++;
+        }else{
+            p2--;
         }
     }
     return maxArea;
