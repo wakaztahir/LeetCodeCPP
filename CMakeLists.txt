@@ -3,4 +3,4 @@ project(InterviewPrep)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(InterviewPrep main.cpp test.cpp 1-twosum/twosum.cpp 1-twosum/twosum.h 2-container-water/container-water.cpp 2-container-water/container-water.h)
+add_executable(InterviewPrep main.cpp test.cpp 1-twosum/twosum.cpp 1-twosum/twosum.h 2-container-water/container-water.cpp 2-container-water/container-water.h 3-rainwater/rainwater.cpp 3-rainwater/rainwater.h)
