@@ -7,7 +7,13 @@ CMakeFiles\InterviewPrep.dir\1-twosum\twosum.cpp.obj: ..\1-twosum\twosum.h
 CMakeFiles\InterviewPrep.dir\2-container-water\container-water.cpp.obj: ..\2-container-water\container-water.cpp
 CMakeFiles\InterviewPrep.dir\2-container-water\container-water.cpp.obj: ..\2-container-water\container-water.h
 
-CMakeFiles\InterviewPrep.dir\main.cpp.obj: ..\2-container-water\container-water.h
+CMakeFiles\InterviewPrep.dir\3-rainwater\rainwater.cpp.obj: ..\3-rainwater\rainwater.cpp
+CMakeFiles\InterviewPrep.dir\3-rainwater\rainwater.cpp.obj: ..\3-rainwater\rainwater.h
+
+CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.obj: ..\4-backspace-compare\backspace-compare.cpp
+CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.obj: ..\4-backspace-compare\backspace-compare.h
+
+CMakeFiles\InterviewPrep.dir\main.cpp.obj: ..\4-backspace-compare\backspace-compare.h
 CMakeFiles\InterviewPrep.dir\main.cpp.obj: ..\main.cpp
 
 CMakeFiles\InterviewPrep.dir\test.cpp.obj: ..\test.cpp

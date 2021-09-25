@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/2-container-water/container-water.cpp
-container-water.h
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/2-container-water/container-water.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.cpp
+iostream
+-
+backspace-compare.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.h
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/2-container-water/container-water.h
-vector
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.h
+string
 -
 

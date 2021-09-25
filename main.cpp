@@ -1,10 +1,8 @@
 #include <iostream>
-#include "3-rainwater/rainwater.h"
+#include "4-backspace-compare/backspace-compare.h"
 
 int main() {
 
-    std::vector<int> vect{1,2,3,4,5};
-    auto area = trap_rain_water(vect);
-    std::cout << area;
+    std::cout << backspaceCompare("ab##","c#c#");
     return 0;
 }

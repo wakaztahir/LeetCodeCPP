@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/InterviewPrep.dir/1-twosum/twosum.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/2-container-water/container-water.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/3-rainwater/rainwater.cpp.obj"
+  "CMakeFiles/InterviewPrep.dir/4-backspace-compare/backspace-compare.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/main.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/test.cpp.obj"
   "InterviewPrep.exe"

@@ -207,6 +207,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\3-rainwater\rainwater.cpp.s
 .PHONY : 3-rainwater\rainwater.cpp.s
 
+4-backspace-compare\backspace-compare.obj: 4-backspace-compare\backspace-compare.cpp.obj
+
+.PHONY : 4-backspace-compare\backspace-compare.obj
+
+# target to build an object file
+4-backspace-compare\backspace-compare.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.obj
+.PHONY : 4-backspace-compare\backspace-compare.cpp.obj
+
+4-backspace-compare\backspace-compare.i: 4-backspace-compare\backspace-compare.cpp.i
+
+.PHONY : 4-backspace-compare\backspace-compare.i
+
+# target to preprocess a source file
+4-backspace-compare\backspace-compare.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.i
+.PHONY : 4-backspace-compare\backspace-compare.cpp.i
+
+4-backspace-compare\backspace-compare.s: 4-backspace-compare\backspace-compare.cpp.s
+
+.PHONY : 4-backspace-compare\backspace-compare.s
+
+# target to generate assembly for a file
+4-backspace-compare\backspace-compare.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.s
+.PHONY : 4-backspace-compare\backspace-compare.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -279,6 +306,9 @@ help:
 	@echo ... 3-rainwater/rainwater.obj
 	@echo ... 3-rainwater/rainwater.i
 	@echo ... 3-rainwater/rainwater.s
+	@echo ... 4-backspace-compare/backspace-compare.obj
+	@echo ... 4-backspace-compare/backspace-compare.i
+	@echo ... 4-backspace-compare/backspace-compare.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
