@@ -234,6 +234,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.s
 .PHONY : 4-backspace-compare\backspace-compare.cpp.s
 
+5-longest-substring\longest-substring.obj: 5-longest-substring\longest-substring.cpp.obj
+
+.PHONY : 5-longest-substring\longest-substring.obj
+
+# target to build an object file
+5-longest-substring\longest-substring.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\5-longest-substring\longest-substring.cpp.obj
+.PHONY : 5-longest-substring\longest-substring.cpp.obj
+
+5-longest-substring\longest-substring.i: 5-longest-substring\longest-substring.cpp.i
+
+.PHONY : 5-longest-substring\longest-substring.i
+
+# target to preprocess a source file
+5-longest-substring\longest-substring.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\5-longest-substring\longest-substring.cpp.i
+.PHONY : 5-longest-substring\longest-substring.cpp.i
+
+5-longest-substring\longest-substring.s: 5-longest-substring\longest-substring.cpp.s
+
+.PHONY : 5-longest-substring\longest-substring.s
+
+# target to generate assembly for a file
+5-longest-substring\longest-substring.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\5-longest-substring\longest-substring.cpp.s
+.PHONY : 5-longest-substring\longest-substring.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -309,6 +336,9 @@ help:
 	@echo ... 4-backspace-compare/backspace-compare.obj
 	@echo ... 4-backspace-compare/backspace-compare.i
 	@echo ... 4-backspace-compare/backspace-compare.s
+	@echo ... 5-longest-substring/longest-substring.obj
+	@echo ... 5-longest-substring/longest-substring.i
+	@echo ... 5-longest-substring/longest-substring.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

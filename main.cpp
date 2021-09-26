@@ -1,8 +1,8 @@
 #include <iostream>
-#include "4-backspace-compare/backspace-compare.h"
+#include "5-longest-substring/longest-substring.h"
 
 int main() {
 
-    std::cout << backspaceCompare("ab##","c#c#");
+    std::cout << lengthOfLongestSubstring("abcabcbb");
     return 0;
 }

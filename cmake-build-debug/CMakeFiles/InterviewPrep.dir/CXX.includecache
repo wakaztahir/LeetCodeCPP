@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.cpp
-iostream
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.cpp
+longest-substring.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.h
+vector
 -
-backspace-compare.h
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.h
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.h
 string
 -
 
