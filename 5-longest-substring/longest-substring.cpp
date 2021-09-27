@@ -2,30 +2,25 @@
 // Created by wakaztahir on 9/26/2021.
 //
 
+#include <iostream>
 #include "longest-substring.h"
-#include <vector>
+#include "unordered_map"
 
 int lengthOfLongestSubstring(std::string s) {
+    std::unordered_map<char, int> seen;
+    int left = 0;
     int longest = 0;
-    for (int i = 0; i < s.size(); i++) {
-        std::vector<char> unique;
-        for (int j=i;j<s.size();j++){
-            bool found = false;
-            for(int k=0;k<unique.size();k++){
-                if(unique[k]==s[j]){
-                    found = true;
-                    break;
-                }
-            }
-            if(!found){
-                unique.push_back(s[j]);
-            }else{
-                break;
-            }
+    for (int right = 0; right < s.size(); right++) {
+        char current = s[right];
+        int previousSeen = -1;
+        if (seen.find(current) != seen.end()) {
+            previousSeen = seen[current];
         }
-        if(unique.size()>longest){
-            longest = unique.size();
+        if (previousSeen >= left) {
+            left = previousSeen + 1;
         }
+        seen[current] = right;
+        longest = std::max(longest, right - left + 1);
     }
     return longest;
 }

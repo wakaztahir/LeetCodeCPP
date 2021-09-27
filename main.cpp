@@ -3,6 +3,6 @@
 
 int main() {
 
-    std::cout << lengthOfLongestSubstring("abcabcbb");
+    std::cout << lengthOfLongestSubstring("bpfbhmipx");
     return 0;
 }
