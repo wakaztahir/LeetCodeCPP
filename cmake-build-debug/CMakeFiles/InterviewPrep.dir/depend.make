@@ -16,7 +16,10 @@ CMakeFiles\InterviewPrep.dir\4-backspace-compare\backspace-compare.cpp.obj: ..\4
 CMakeFiles\InterviewPrep.dir\5-longest-substring\longest-substring.cpp.obj: ..\5-longest-substring\longest-substring.cpp
 CMakeFiles\InterviewPrep.dir\5-longest-substring\longest-substring.cpp.obj: ..\5-longest-substring\longest-substring.h
 
-CMakeFiles\InterviewPrep.dir\main.cpp.obj: ..\5-longest-substring\longest-substring.h
+CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.obj: ..\6-valid-palindrome\valid-palindrome.cpp
+CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.obj: ..\6-valid-palindrome\valid-palindrome.h
+
+CMakeFiles\InterviewPrep.dir\main.cpp.obj: ..\6-valid-palindrome\valid-palindrome.h
 CMakeFiles\InterviewPrep.dir\main.cpp.obj: ..\main.cpp
 
 CMakeFiles\InterviewPrep.dir\test.cpp.obj: ..\test.cpp

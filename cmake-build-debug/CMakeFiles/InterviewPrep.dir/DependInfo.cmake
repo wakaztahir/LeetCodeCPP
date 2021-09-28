@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/wakaztahir/CLionProjects/InterviewPrep/3-rainwater/rainwater.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/3-rainwater/rainwater.cpp.obj"
   "C:/Users/wakaztahir/CLionProjects/InterviewPrep/4-backspace-compare/backspace-compare.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/4-backspace-compare/backspace-compare.cpp.obj"
   "C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/5-longest-substring/longest-substring.cpp.obj"
+  "C:/Users/wakaztahir/CLionProjects/InterviewPrep/6-valid-palindrome/valid-palindrome.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/6-valid-palindrome/valid-palindrome.cpp.obj"
   "C:/Users/wakaztahir/CLionProjects/InterviewPrep/main.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/main.cpp.obj"
   "C:/Users/wakaztahir/CLionProjects/InterviewPrep/test.cpp" "C:/Users/wakaztahir/CLionProjects/InterviewPrep/cmake-build-debug/CMakeFiles/InterviewPrep.dir/test.cpp.obj"
   )

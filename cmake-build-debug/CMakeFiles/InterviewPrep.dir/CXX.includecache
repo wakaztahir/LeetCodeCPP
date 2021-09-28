@@ -6,15 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.cpp
-iostream
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/6-valid-palindrome/valid-palindrome.cpp
+valid-palindrome.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/6-valid-palindrome/valid-palindrome.h
+regex
 -
-longest-substring.h
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.h
-unordered_map
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/unordered_map
 
-C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.h
+C:/Users/wakaztahir/CLionProjects/InterviewPrep/6-valid-palindrome/valid-palindrome.h
 string
 -
 

@@ -261,6 +261,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\5-longest-substring\longest-substring.cpp.s
 .PHONY : 5-longest-substring\longest-substring.cpp.s
 
+6-valid-palindrome\valid-palindrome.obj: 6-valid-palindrome\valid-palindrome.cpp.obj
+
+.PHONY : 6-valid-palindrome\valid-palindrome.obj
+
+# target to build an object file
+6-valid-palindrome\valid-palindrome.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.obj
+.PHONY : 6-valid-palindrome\valid-palindrome.cpp.obj
+
+6-valid-palindrome\valid-palindrome.i: 6-valid-palindrome\valid-palindrome.cpp.i
+
+.PHONY : 6-valid-palindrome\valid-palindrome.i
+
+# target to preprocess a source file
+6-valid-palindrome\valid-palindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.i
+.PHONY : 6-valid-palindrome\valid-palindrome.cpp.i
+
+6-valid-palindrome\valid-palindrome.s: 6-valid-palindrome\valid-palindrome.cpp.s
+
+.PHONY : 6-valid-palindrome\valid-palindrome.s
+
+# target to generate assembly for a file
+6-valid-palindrome\valid-palindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.s
+.PHONY : 6-valid-palindrome\valid-palindrome.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -339,6 +366,9 @@ help:
 	@echo ... 5-longest-substring/longest-substring.obj
 	@echo ... 5-longest-substring/longest-substring.i
 	@echo ... 5-longest-substring/longest-substring.s
+	@echo ... 6-valid-palindrome/valid-palindrome.obj
+	@echo ... 6-valid-palindrome/valid-palindrome.i
+	@echo ... 6-valid-palindrome/valid-palindrome.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -114,6 +114,12 @@
 		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/5-longest-substring/longest-substring.h">
 			<Option target="InterviewPrep"/>
 		</Unit>
+		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/6-valid-palindrome/valid-palindrome.cpp">
+			<Option target="InterviewPrep"/>
+		</Unit>
+		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/6-valid-palindrome/valid-palindrome.h">
+			<Option target="InterviewPrep"/>
+		</Unit>
 		<Unit filename="C:/Users/wakaztahir/CLionProjects/InterviewPrep/main.cpp">
 			<Option target="InterviewPrep"/>
 		</Unit>
