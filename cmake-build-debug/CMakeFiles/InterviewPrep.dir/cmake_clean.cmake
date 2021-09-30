@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/InterviewPrep.dir/4-backspace-compare/backspace-compare.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/5-longest-substring/longest-substring.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/6-valid-palindrome/valid-palindrome.cpp.obj"
+  "CMakeFiles/InterviewPrep.dir/7-reverse-linked-list/reverse-linked-list.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/main.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/test.cpp.obj"
   "InterviewPrep.exe"

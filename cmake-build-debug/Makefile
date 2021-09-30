@@ -51,10 +51,10 @@ RM = "D:\Software\Installed\Jetbrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\wakaztahir\CLionProjects\InterviewPrep
+CMAKE_SOURCE_DIR = D:\Development\CPP\LeetCodeCPP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\wakaztahir\CLionProjects\InterviewPrep\cmake-build-debug
+CMAKE_BINARY_DIR = D:\Development\CPP\LeetCodeCPP\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wakaztahir\CLionProjects\InterviewPrep\cmake-build-debug\CMakeFiles C:\Users\wakaztahir\CLionProjects\InterviewPrep\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles D:\Development\CPP\LeetCodeCPP\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\wakaztahir\CLionProjects\InterviewPrep\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -288,6 +288,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.s
 .PHONY : 6-valid-palindrome\valid-palindrome.cpp.s
 
+7-reverse-linked-list\reverse-linked-list.obj: 7-reverse-linked-list\reverse-linked-list.cpp.obj
+
+.PHONY : 7-reverse-linked-list\reverse-linked-list.obj
+
+# target to build an object file
+7-reverse-linked-list\reverse-linked-list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.obj
+.PHONY : 7-reverse-linked-list\reverse-linked-list.cpp.obj
+
+7-reverse-linked-list\reverse-linked-list.i: 7-reverse-linked-list\reverse-linked-list.cpp.i
+
+.PHONY : 7-reverse-linked-list\reverse-linked-list.i
+
+# target to preprocess a source file
+7-reverse-linked-list\reverse-linked-list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.i
+.PHONY : 7-reverse-linked-list\reverse-linked-list.cpp.i
+
+7-reverse-linked-list\reverse-linked-list.s: 7-reverse-linked-list\reverse-linked-list.cpp.s
+
+.PHONY : 7-reverse-linked-list\reverse-linked-list.s
+
+# target to generate assembly for a file
+7-reverse-linked-list\reverse-linked-list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.s
+.PHONY : 7-reverse-linked-list\reverse-linked-list.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -369,6 +396,9 @@ help:
 	@echo ... 6-valid-palindrome/valid-palindrome.obj
 	@echo ... 6-valid-palindrome/valid-palindrome.i
 	@echo ... 6-valid-palindrome/valid-palindrome.s
+	@echo ... 7-reverse-linked-list/reverse-linked-list.obj
+	@echo ... 7-reverse-linked-list/reverse-linked-list.i
+	@echo ... 7-reverse-linked-list/reverse-linked-list.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
