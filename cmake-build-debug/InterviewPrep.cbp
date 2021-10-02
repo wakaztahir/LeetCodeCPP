@@ -126,6 +126,12 @@
 		<Unit filename="D:/Development/CPP/LeetCodeCPP/7-reverse-linked-list/reverse-linked-list.h">
 			<Option target="InterviewPrep"/>
 		</Unit>
+		<Unit filename="D:/Development/CPP/LeetCodeCPP/8-multi-level-doubly/multi-level-doubly.cpp">
+			<Option target="InterviewPrep"/>
+		</Unit>
+		<Unit filename="D:/Development/CPP/LeetCodeCPP/8-multi-level-doubly/multi-level-doubly.h">
+			<Option target="InterviewPrep"/>
+		</Unit>
 		<Unit filename="D:/Development/CPP/LeetCodeCPP/main.cpp">
 			<Option target="InterviewPrep"/>
 		</Unit>

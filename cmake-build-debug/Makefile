@@ -315,6 +315,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.s
 .PHONY : 7-reverse-linked-list\reverse-linked-list.cpp.s
 
+8-multi-level-doubly\multi-level-doubly.obj: 8-multi-level-doubly\multi-level-doubly.cpp.obj
+
+.PHONY : 8-multi-level-doubly\multi-level-doubly.obj
+
+# target to build an object file
+8-multi-level-doubly\multi-level-doubly.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.obj
+.PHONY : 8-multi-level-doubly\multi-level-doubly.cpp.obj
+
+8-multi-level-doubly\multi-level-doubly.i: 8-multi-level-doubly\multi-level-doubly.cpp.i
+
+.PHONY : 8-multi-level-doubly\multi-level-doubly.i
+
+# target to preprocess a source file
+8-multi-level-doubly\multi-level-doubly.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.i
+.PHONY : 8-multi-level-doubly\multi-level-doubly.cpp.i
+
+8-multi-level-doubly\multi-level-doubly.s: 8-multi-level-doubly\multi-level-doubly.cpp.s
+
+.PHONY : 8-multi-level-doubly\multi-level-doubly.s
+
+# target to generate assembly for a file
+8-multi-level-doubly\multi-level-doubly.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.s
+.PHONY : 8-multi-level-doubly\multi-level-doubly.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -399,6 +426,9 @@ help:
 	@echo ... 7-reverse-linked-list/reverse-linked-list.obj
 	@echo ... 7-reverse-linked-list/reverse-linked-list.i
 	@echo ... 7-reverse-linked-list/reverse-linked-list.s
+	@echo ... 8-multi-level-doubly/multi-level-doubly.obj
+	@echo ... 8-multi-level-doubly/multi-level-doubly.i
+	@echo ... 8-multi-level-doubly/multi-level-doubly.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
