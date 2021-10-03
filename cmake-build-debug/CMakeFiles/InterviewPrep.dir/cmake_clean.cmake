@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/InterviewPrep.dir/6-valid-palindrome/valid-palindrome.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/7-reverse-linked-list/reverse-linked-list.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/8-multi-level-doubly/multi-level-doubly.cpp.obj"
+  "CMakeFiles/InterviewPrep.dir/9-cycle-detection/cycle-detection.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/main.cpp.obj"
   "CMakeFiles/InterviewPrep.dir/test.cpp.obj"
   "InterviewPrep.exe"
