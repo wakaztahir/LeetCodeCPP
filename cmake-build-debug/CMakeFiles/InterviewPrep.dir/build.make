@@ -269,6 +269,25 @@ CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.s: cmake_forc
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.s /c D:\Development\CPP\LeetCodeCPP\9-cycle-detection\cycle-detection.cpp
 <<
 
+CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj: CMakeFiles\InterviewPrep.dir\flags.make
+CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj: ..\10-valid-paranthesis\valid-paranthesis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/InterviewPrep.dir/10-valid-paranthesis/valid-paranthesis.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj /FdCMakeFiles\InterviewPrep.dir\ /FS -c D:\Development\CPP\LeetCodeCPP\10-valid-paranthesis\valid-paranthesis.cpp
+<<
+
+CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterviewPrep.dir/10-valid-paranthesis/valid-paranthesis.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe > CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\CPP\LeetCodeCPP\10-valid-paranthesis\valid-paranthesis.cpp
+<<
+
+CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewPrep.dir/10-valid-paranthesis/valid-paranthesis.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.s /c D:\Development\CPP\LeetCodeCPP\10-valid-paranthesis\valid-paranthesis.cpp
+<<
+
 # Object files for target InterviewPrep
 InterviewPrep_OBJECTS = \
 "CMakeFiles\InterviewPrep.dir\main.cpp.obj" \
@@ -281,7 +300,8 @@ InterviewPrep_OBJECTS = \
 "CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindrome.cpp.obj" \
 "CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.obj" \
 "CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.obj" \
-"CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.obj"
+"CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.obj" \
+"CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj"
 
 # External object files for target InterviewPrep
 InterviewPrep_EXTERNAL_OBJECTS =
@@ -297,9 +317,10 @@ InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindr
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.obj
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.obj
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.obj
+InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\build.make
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable InterviewPrep.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable InterviewPrep.exe"
 	"D:\Software\Installed\Jetbrains\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\InterviewPrep.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\InterviewPrep.dir\objects1.rsp @<<
  /out:InterviewPrep.exe /implib:InterviewPrep.lib /pdb:D:\Development\CPP\LeetCodeCPP\cmake-build-debug\InterviewPrep.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

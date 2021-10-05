@@ -153,6 +153,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\1-twosum\twosum.cpp.s
 .PHONY : 1-twosum\twosum.cpp.s
 
+10-valid-paranthesis\valid-paranthesis.obj: 10-valid-paranthesis\valid-paranthesis.cpp.obj
+
+.PHONY : 10-valid-paranthesis\valid-paranthesis.obj
+
+# target to build an object file
+10-valid-paranthesis\valid-paranthesis.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj
+.PHONY : 10-valid-paranthesis\valid-paranthesis.cpp.obj
+
+10-valid-paranthesis\valid-paranthesis.i: 10-valid-paranthesis\valid-paranthesis.cpp.i
+
+.PHONY : 10-valid-paranthesis\valid-paranthesis.i
+
+# target to preprocess a source file
+10-valid-paranthesis\valid-paranthesis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.i
+.PHONY : 10-valid-paranthesis\valid-paranthesis.cpp.i
+
+10-valid-paranthesis\valid-paranthesis.s: 10-valid-paranthesis\valid-paranthesis.cpp.s
+
+.PHONY : 10-valid-paranthesis\valid-paranthesis.s
+
+# target to generate assembly for a file
+10-valid-paranthesis\valid-paranthesis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.s
+.PHONY : 10-valid-paranthesis\valid-paranthesis.cpp.s
+
 2-container-water\container-water.obj: 2-container-water\container-water.cpp.obj
 
 .PHONY : 2-container-water\container-water.obj
@@ -435,6 +462,9 @@ help:
 	@echo ... 1-twosum/twosum.obj
 	@echo ... 1-twosum/twosum.i
 	@echo ... 1-twosum/twosum.s
+	@echo ... 10-valid-paranthesis/valid-paranthesis.obj
+	@echo ... 10-valid-paranthesis/valid-paranthesis.i
+	@echo ... 10-valid-paranthesis/valid-paranthesis.s
 	@echo ... 2-container-water/container-water.obj
 	@echo ... 2-container-water/container-water.i
 	@echo ... 2-container-water/container-water.s
