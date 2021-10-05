@@ -17,7 +17,8 @@ bool isValid(std::string s) {
                 break;
             case ')':
                 if (!container.empty() && container.top() == '(') {
-                    container.pop();break;
+                    container.pop();
+                    break;
                 }
                 else return false;
             case '}':
