@@ -90,10 +90,10 @@
 		<Unit filename="D:/Development/CPP/LeetCodeCPP/1-twosum/twosum.h">
 			<Option target="InterviewPrep"/>
 		</Unit>
-		<Unit filename="D:/Development/CPP/LeetCodeCPP/10-valid-paranthesis/valid-paranthesis.cpp">
+		<Unit filename="D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.cpp">
 			<Option target="InterviewPrep"/>
 		</Unit>
-		<Unit filename="D:/Development/CPP/LeetCodeCPP/10-valid-paranthesis/valid-paranthesis.h">
+		<Unit filename="D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.h">
 			<Option target="InterviewPrep"/>
 		</Unit>
 		<Unit filename="D:/Development/CPP/LeetCodeCPP/2-container-water/container-water.cpp">

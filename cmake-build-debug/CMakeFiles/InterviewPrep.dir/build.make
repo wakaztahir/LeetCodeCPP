@@ -269,23 +269,23 @@ CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.s: cmake_forc
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.s /c D:\Development\CPP\LeetCodeCPP\9-cycle-detection\cycle-detection.cpp
 <<
 
-CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj: CMakeFiles\InterviewPrep.dir\flags.make
-CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj: ..\10-valid-paranthesis\valid-paranthesis.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/InterviewPrep.dir/10-valid-paranthesis/valid-paranthesis.cpp.obj"
+CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.obj: CMakeFiles\InterviewPrep.dir\flags.make
+CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.obj: ..\10-valid-parenthesis\valid-parenthesis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/InterviewPrep.dir/10-valid-parenthesis/valid-parenthesis.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj /FdCMakeFiles\InterviewPrep.dir\ /FS -c D:\Development\CPP\LeetCodeCPP\10-valid-paranthesis\valid-paranthesis.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.obj /FdCMakeFiles\InterviewPrep.dir\ /FS -c D:\Development\CPP\LeetCodeCPP\10-valid-parenthesis\valid-parenthesis.cpp
 <<
 
-CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterviewPrep.dir/10-valid-paranthesis/valid-paranthesis.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe > CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\CPP\LeetCodeCPP\10-valid-paranthesis\valid-paranthesis.cpp
+CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InterviewPrep.dir/10-valid-parenthesis/valid-parenthesis.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe > CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\CPP\LeetCodeCPP\10-valid-parenthesis\valid-parenthesis.cpp
 <<
 
-CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewPrep.dir/10-valid-paranthesis/valid-paranthesis.cpp.s"
+CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InterviewPrep.dir/10-valid-parenthesis/valid-parenthesis.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.300\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.s /c D:\Development\CPP\LeetCodeCPP\10-valid-paranthesis\valid-paranthesis.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.s /c D:\Development\CPP\LeetCodeCPP\10-valid-parenthesis\valid-parenthesis.cpp
 <<
 
 # Object files for target InterviewPrep
@@ -301,7 +301,7 @@ InterviewPrep_OBJECTS = \
 "CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.obj" \
 "CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.obj" \
 "CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.obj" \
-"CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj"
+"CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.obj"
 
 # External object files for target InterviewPrep
 InterviewPrep_EXTERNAL_OBJECTS =
@@ -317,7 +317,7 @@ InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\6-valid-palindrome\valid-palindr
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\7-reverse-linked-list\reverse-linked-list.cpp.obj
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\8-multi-level-doubly\multi-level-doubly.cpp.obj
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\9-cycle-detection\cycle-detection.cpp.obj
-InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\10-valid-paranthesis\valid-paranthesis.cpp.obj
+InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.obj
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\build.make
 InterviewPrep.exe: CMakeFiles\InterviewPrep.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\CPP\LeetCodeCPP\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable InterviewPrep.exe"

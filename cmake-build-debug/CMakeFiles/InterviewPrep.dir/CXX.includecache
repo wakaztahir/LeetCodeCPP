@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.cpp
+valid-parenthesis.h
+D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.h
+stack
+-
+unordered_map
+-
+
+D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.h
+string
+-
+vector
+-
+
+D:/Development/CPP/LeetCodeCPP/main.cpp
+iostream
+-
+10-valid-parenthesis/valid-parenthesis.h
+D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.h
+
