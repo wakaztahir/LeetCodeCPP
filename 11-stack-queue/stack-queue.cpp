@@ -27,8 +27,9 @@ public:
                 in.pop();
             }
         }
+        int top = out.top();
         out.pop();
-        return out.top();
+        return top;
     }
 
     int peek() {
