@@ -4,6 +4,7 @@
 
 #include "valid-parenthesis.h"
 #include <stack>
+#include <queue>
 #include <unordered_map>
 
 bool isValid(std::string s) {
@@ -36,8 +37,12 @@ bool isValid(std::string s) {
     return container.empty();
 }
 
+//todo sometimes possibilities are similar , need to backtrack to find the correct possibility
 std::vector<std::string> removeInvalidParentheses(std::string s) {
     std::stack<int> stack;
+
+    auto addLeft = false;
+    auto addRight = false;
 
     // Left To Right
 
@@ -53,36 +58,42 @@ std::vector<std::string> removeInvalidParentheses(std::string s) {
                     stack.pop();
                 } else {
                     left[i] = "";
+                    addLeft = true;
                 }
                 break;
         }
     }
     while (!stack.empty()) {
+        addLeft = true;
         left[stack.top()] = "";
         stack.pop();
     }
 
     // Right To Left
 
+    std::queue<int> queue{};
+
     std::string right[s.size()];
     for (int i = s.size() - 1; i > -1; i--) {
         right[i] = s[i];
         switch (s[i]) {
             case ')':
-                stack.push(i);
+                queue.push(i);
                 break;
             case '(':
-                if (!stack.empty()) {
-                    stack.pop();
+                if (!queue.empty()) {
+                    queue.pop();
                 } else {
                     right[i] = "";
+                    addRight = true;
                 }
                 break;
         }
     }
-    while (!stack.empty()) {
-        right[stack.top()] = "";
-        stack.pop();
+    while (!queue.empty()) {
+        addRight = true;
+        right[queue.front()] = "";
+        queue.pop();
     }
 
     // Returning Possibilities
@@ -90,20 +101,23 @@ std::vector<std::string> removeInvalidParentheses(std::string s) {
     std::vector<std::string> ret{};
 
     // Joining two strings
-
     std::string leftString = "";
-    std::string rightString = "";
     for (int i = 0; i < s.size(); ++i) {
         leftString += left[i];
     }
+    std::string rightString = "";
+
     for (int i = 0; i < s.size(); ++i) {
         rightString += right[i];
     }
-
-    if (leftString != s) {
+    if(leftString==rightString){
+        ret.push_back(leftString);
+        return ret;
+    }
+    if (addLeft) {
         ret.push_back(leftString);
     }
-    if (rightString != s) {
+    if (addRight) {
         ret.push_back(rightString);
     }
 

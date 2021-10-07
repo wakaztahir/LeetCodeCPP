@@ -180,6 +180,33 @@ InterviewPrep\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\10-valid-parenthesis\valid-parenthesis.cpp.s
 .PHONY : 10-valid-parenthesis\valid-parenthesis.cpp.s
 
+11-stack-queue\stack-queue.obj: 11-stack-queue\stack-queue.cpp.obj
+
+.PHONY : 11-stack-queue\stack-queue.obj
+
+# target to build an object file
+11-stack-queue\stack-queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\11-stack-queue\stack-queue.cpp.obj
+.PHONY : 11-stack-queue\stack-queue.cpp.obj
+
+11-stack-queue\stack-queue.i: 11-stack-queue\stack-queue.cpp.i
+
+.PHONY : 11-stack-queue\stack-queue.i
+
+# target to preprocess a source file
+11-stack-queue\stack-queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\11-stack-queue\stack-queue.cpp.i
+.PHONY : 11-stack-queue\stack-queue.cpp.i
+
+11-stack-queue\stack-queue.s: 11-stack-queue\stack-queue.cpp.s
+
+.PHONY : 11-stack-queue\stack-queue.s
+
+# target to generate assembly for a file
+11-stack-queue\stack-queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\InterviewPrep.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\InterviewPrep.dir\11-stack-queue\stack-queue.cpp.s
+.PHONY : 11-stack-queue\stack-queue.cpp.s
+
 2-container-water\container-water.obj: 2-container-water\container-water.cpp.obj
 
 .PHONY : 2-container-water\container-water.obj
@@ -465,6 +492,9 @@ help:
 	@echo ... 10-valid-parenthesis/valid-parenthesis.obj
 	@echo ... 10-valid-parenthesis/valid-parenthesis.i
 	@echo ... 10-valid-parenthesis/valid-parenthesis.s
+	@echo ... 11-stack-queue/stack-queue.obj
+	@echo ... 11-stack-queue/stack-queue.i
+	@echo ... 11-stack-queue/stack-queue.s
 	@echo ... 2-container-water/container-water.obj
 	@echo ... 2-container-water/container-water.i
 	@echo ... 2-container-water/container-water.s

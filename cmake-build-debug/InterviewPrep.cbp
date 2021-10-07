@@ -96,6 +96,12 @@
 		<Unit filename="D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.h">
 			<Option target="InterviewPrep"/>
 		</Unit>
+		<Unit filename="D:/Development/CPP/LeetCodeCPP/11-stack-queue/stack-queue.cpp">
+			<Option target="InterviewPrep"/>
+		</Unit>
+		<Unit filename="D:/Development/CPP/LeetCodeCPP/11-stack-queue/stack-queue.h">
+			<Option target="InterviewPrep"/>
+		</Unit>
 		<Unit filename="D:/Development/CPP/LeetCodeCPP/2-container-water/container-water.cpp">
 			<Option target="InterviewPrep"/>
 		</Unit>

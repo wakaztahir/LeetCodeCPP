@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Development/CPP/LeetCodeCPP/1-twosum/twosum.cpp" "D:/Development/CPP/LeetCodeCPP/cmake-build-debug/CMakeFiles/InterviewPrep.dir/1-twosum/twosum.cpp.obj"
   "D:/Development/CPP/LeetCodeCPP/10-valid-parenthesis/valid-parenthesis.cpp" "D:/Development/CPP/LeetCodeCPP/cmake-build-debug/CMakeFiles/InterviewPrep.dir/10-valid-parenthesis/valid-parenthesis.cpp.obj"
+  "D:/Development/CPP/LeetCodeCPP/11-stack-queue/stack-queue.cpp" "D:/Development/CPP/LeetCodeCPP/cmake-build-debug/CMakeFiles/InterviewPrep.dir/11-stack-queue/stack-queue.cpp.obj"
   "D:/Development/CPP/LeetCodeCPP/2-container-water/container-water.cpp" "D:/Development/CPP/LeetCodeCPP/cmake-build-debug/CMakeFiles/InterviewPrep.dir/2-container-water/container-water.cpp.obj"
   "D:/Development/CPP/LeetCodeCPP/3-rainwater/rainwater.cpp" "D:/Development/CPP/LeetCodeCPP/cmake-build-debug/CMakeFiles/InterviewPrep.dir/3-rainwater/rainwater.cpp.obj"
   "D:/Development/CPP/LeetCodeCPP/4-backspace-compare/backspace-compare.cpp" "D:/Development/CPP/LeetCodeCPP/cmake-build-debug/CMakeFiles/InterviewPrep.dir/4-backspace-compare/backspace-compare.cpp.obj"
